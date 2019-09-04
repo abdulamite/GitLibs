@@ -2,7 +2,7 @@
 # GitLibs
 The purpose of this repository is to go over the basics of git and GitHub in a fun and easy way. In the exercise you will be forking this repository to your Github account, cloning your fork to your local machine, making some changes to a local file, and pushing back to your fork. Finally you will be creating a pull request to the master branch you forked in an attempt to merge your changes into the production codebase.
 
-**Prerequisites**
+## Prerequisites
 The tutorial assumes that you have a basic understanding of the command line and you have git installed on your local machine. If you do not have git installed on your machine, you can download the latest version below:
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
