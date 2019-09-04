@@ -14,7 +14,7 @@ git is an open source distributed version control system. git allows you to set 
 ## GitHub
 Github is an online hosting service for git repos. This allows you to build and collaborate on projects together. This makes it easy for companies, and open source groups to fork repos, create local copies of the application, and submit pull requests to the master copy. Essentially you will be able to take the code locally on your machine, and request to have it merged into the production version of the code.
 
-
+## Getting Started
 Now that we understand what we are doing and what we need, now we can finally get started!!
 
  1. First you will need to fork this repository so that we have this
