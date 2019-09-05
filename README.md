@@ -4,6 +4,7 @@ The purpose of this repository is to go over the basics of git and GitHub in a f
 
 ## Prerequisites
 The tutorial assumes that you have a basic understanding of the command line and you have git installed on your local machine. If you do not have git installed on your machine, you can download the latest version below:
+
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 It is also important that we understand the difference between git and and Github. 
