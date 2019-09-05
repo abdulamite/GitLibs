@@ -41,7 +41,7 @@ To create a new branch run `git branch lib_edit`. This will create a new branch 
  13.  Now you are ready ready to stage your commits. To add the files to your staging area run `git add lib_edit`
  14. Now that the file has been staged, we can check the status of the file by running `git status`. This will show us the status of the staged, and modified files.
  15. We can now commit our changes. It is important that we add a useful commit message so the reviewer knows what to look for in the file changes. To commit the file run `git commit -m "filled in lib.txt file"`
- 16. Finally we can push our changes up to our Github repository. To do this we run `git push origin lib_edit`. 
+ 16. Finally we can push our changes up to our Github repository. To do this we run `git push https://github.com/{your_username}/GitLibs.git lib_edit`. 
 **Note that when we run this, we are only pushing the changes to our Github fork of the original repository. We must now open a pull request to request to add our changes to the production copy of the code**
 
 ## Pull Request
