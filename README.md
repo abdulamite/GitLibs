@@ -1,4 +1,5 @@
 
+
 # GitLibs
 The purpose of this repository is to go over the basics of git and GitHub in a fun and easy way. In the exercise you will be forking this repository to your Github account, cloning your fork to your local machine, making some changes to a local file, and pushing back to your fork. Finally you will be creating a pull request to the master branch you forked in an attempt to merge your changes into the production codebase.
 
@@ -36,13 +37,21 @@ To create a new branch run `git branch lib_edit`. This will create a new branch 
  7. Now that we created the new branch, we need to checkout the new branch. To checkout the new branch simply run `git checkout lib_edit`.
  8. If we ever need to check what branch we are currently on, we can simply run `git branch` and we will see a `*` next to the active branch.
  9. Now you can run `ls -l`  to see the the folders available in the project. You should see a file titled `libs.txt`
- 10. Using either nano or your favorite text editor your can now open this file to edit it. To open the file using the default editor on your machine simply run `open libs.txt`
- 11. You should see there are spaces available where you can edit the file. Simply complete the Mad Libs like file to create your own fun story.
- 12. Once you have completed this, save your file and run `git status` to view the changes made in project.
- 13.  Now you are ready ready to stage your commits. To add the files to your staging area run `git add lib_edit`
- 14. Now that the file has been staged, we can check the status of the file by running `git status`. This will show us the status of the staged, and modified files.
- 15. We can now commit our changes. It is important that we add a useful commit message so the reviewer knows what to look for in the file changes. To commit the file run `git commit -m "filled in lib.txt file"`
- 16. Finally we can push our changes up to our Github repository. To do this we run `git push https://github.com/{your_username}/GitLibs.git lib_edit`. 
+ 11. What we want to do now, is we want to make a copy of the `libs.txt` file and we want to create our copy in the `/responses` directory. To do this we can simply run `cp libs.txt responses/{your_name}_libs.txt`. 
+As an example I would run `cp libs.txt responses/abdul_libs.txt`.
+ 13. This will create a text file in the `responses` directory that we can edit and make our own! To do this we can now go into the directory with `cd responses`. and run `ls` to see the newly created file is now available. 
+ 14. Now you can open the file with your favorite text editor by running `open responses/{your_name}_libs.txt`.
+ 15. You should see there are spaces available where you can edit the file. Simply complete the Mad Libs like file to create your own fun story.
+ 16. Once you have completed this, save your file and run `git status` to view the changes made in project.
+ 17.  We are almost ready to stage our commits. First we need to make sure we are at the root of the project. If you are currently in the `/responses` directory simply run. `cd ..` to go back to the parent directory. We know we are in the correct spot if we hit `ls -l` and we see the following files:
+- README.md 
+- libs.txt
+- responses
+
+ 19. To add the files to your staging area run `git add responses`
+ 20. Now that the file has been staged, we can check the status of the file by running `git status`. This will show us the status of the staged, and modified files.
+ 21. We can now commit our changes. It is important that we add a useful commit message so the reviewer knows what to look for in the file changes. To commit the file run `git commit -m "created my own libs file in the responses directory"`
+ 22. Finally we can push our changes up to our Github repository. To do this we run `git push https://github.com/{your_username}/GitLibs.git lib_edit`. 
 **Note that when we run this, we are only pushing the changes to our Github fork of the original repository. We must now open a pull request to request to add our changes to the production copy of the code**
 
 ## Pull Request
@@ -56,4 +65,4 @@ To create a new branch run `git branch lib_edit`. This will create a new branch 
  7. Now we can click `Create Pull Request`.
  8. And thats it! 
 
-You have now successfully copied another programmers project, made some changes to the project, and submitted a pull request to the project. At this point we can wait for the reviewer to look over the changes you made and the reviewer will either accept the changes into their repository, or will request that you make some edits before moving forward with this change. That's all for today, though I hope that this was helpful in you better understand how git and Github works. Please feel free to sumbit a Pull reques to improve the quality of this documentation!
+You have now successfully copied another programmers project, made some changes to the project, and submitted a pull request to the project. At this point we can wait for the reviewer to look over the changes you made and the reviewer will either accept the changes into their repository, or will request that you make some edits before moving forward with this change. That's all for today, though I hope that this was helpful in you better understand how git and Github works. Please feel free to submit a Pull request to improve the quality of this documentation!
