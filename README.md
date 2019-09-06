@@ -40,7 +40,7 @@ To create a new branch run `git branch lib_edit`. This will create a new branch 
  11. What we want to do now, is we want to make a copy of the `libs.txt` file and we want to create our copy in the `/responses` directory. To do this we can simply run `cp libs.txt responses/{your_name}_libs.txt`. 
 As an example I would run `cp libs.txt responses/abdul_libs.txt`.
  13. This will create a text file in the `responses` directory that we can edit and make our own! To do this we can now go into the directory with `cd responses`. and run `ls` to see the newly created file is now available. 
- 14. Now you can open the file with your favorite text editor by running `open responses/{your_name}_libs.txt`.
+ 14. Now you can open the file with your favorite text editor by running `open {your_name}_libs.txt`.
  15. You should see there are spaces available where you can edit the file. Simply complete the Mad Libs like file to create your own fun story.
  16. Once you have completed this, save your file and run `git status` to view the changes made in project.
  17.  We are almost ready to stage our commits. First we need to make sure we are at the root of the project. If you are currently in the `/responses` directory simply run. `cd ..` to go back to the parent directory. We know we are in the correct spot if we hit `ls -l` and we see the following files:
